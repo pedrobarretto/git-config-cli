@@ -1,0 +1,28 @@
+{
+  "name": "git-config-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrobarretto/git-config-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrobarretto/git-config-cli/issues"
+  },
+  "homepage": "https://github.com/pedrobarretto/git-config-cli#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "conf": "^10.2.0",
+    "yargs": "^17.5.1"
+  },
+  "bin": {
+    "gcu": "./bin/index.js"
+  }
+}
